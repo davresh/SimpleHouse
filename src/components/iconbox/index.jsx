@@ -7,7 +7,7 @@ function IconBox({add}){
             <i className={add.icon}/>
             <p>{add.text}</p>
             <div className='box-icon-btn'>
-                <Link to={'/'} style={{backgroundColor:add.color}}>Read more</Link>
+                <Link to={'/SimpleHouse'} style={{backgroundColor:add.color}}>Read more</Link>
             </div>
         </div>
     )
