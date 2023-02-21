@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SimpleHouse/static/css/main.7c4eff31.css",
-    "main.js": "/SimpleHouse/static/js/main.2872637a.js",
+    "main.js": "/SimpleHouse/static/js/main.d7e23eaf.js",
     "static/media/simple-house-01.jpg": "/SimpleHouse/static/media/simple-house-01.78a971b899af42363545.jpg",
     "static/media/about-05.jpg": "/SimpleHouse/static/media/about-05.0ca88727177d99976b02.jpg",
     "static/media/about-06.jpg": "/SimpleHouse/static/media/about-06.498a1ded8ec7064cf0ed.jpg",
@@ -24,10 +24,10 @@
     "static/media/icomoon.ttf?k2qxoe": "/SimpleHouse/static/media/icomoon.22c5f683d393fc92354f.ttf",
     "index.html": "/SimpleHouse/index.html",
     "main.7c4eff31.css.map": "/SimpleHouse/static/css/main.7c4eff31.css.map",
-    "main.2872637a.js.map": "/SimpleHouse/static/js/main.2872637a.js.map"
+    "main.d7e23eaf.js.map": "/SimpleHouse/static/js/main.d7e23eaf.js.map"
   },
   "entrypoints": [
     "static/css/main.7c4eff31.css",
-    "static/js/main.2872637a.js"
+    "static/js/main.d7e23eaf.js"
   ]
 }
