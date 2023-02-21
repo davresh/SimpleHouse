@@ -1,0 +1,28 @@
+@import '../../assets/style/mixin.scss';
+.box-icon{
+    width: 32%;
+    text-align: center;
+    @include screen(767px){
+        width: 48%;
+        margin: 20px 0;
+    }
+    @include screen(567px){
+        width: 280px;
+    }
+    i{
+        font-size: 60px;
+        color: gray;
+    }
+    p{
+        margin: 50px 0;
+    }
+    .box-icon-btn{
+        width: 100%;
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 22px;
+          padding: 10px 15px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../assets/style/mixin.scss';
+.block-wrap{
+    width: 600px;height: 55px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: rgb(167, 167, 167);
+    .border-block{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgb(167, 167, 167);
+        padding: 15px 5px;
+        cursor: pointer;
+        h3{
+            font-weight: 300;
+            @include screen(567px){
+                font-size: 13px;
+            }
+        }
+        .icon-play3{
+            transform: rotateY(180deg);
+            rotate: 0deg;
+            font-size: 22px;
+        }
+        &:hover h3{
+            color: rgb(112, 112, 233);
+        }
+    }
+    .wrap-text{
+        width: 100%;
+        padding-top: 10px;
+    }
+}

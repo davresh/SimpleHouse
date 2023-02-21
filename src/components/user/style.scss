@@ -1,0 +1,43 @@
+@import '../../assets/style/mixin.scss';
+.user-block{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include screen(767px){
+        width: 100%;
+    }
+    @include screen(567px){
+        justify-content: left;
+    }
+    margin: 15px 0;
+
+    .about-user{
+        width: 68%;
+        line-height: 40px;
+        @include screen(567px){
+            width: 100%;
+        }
+        h2{
+            color: #1A6692;
+        }
+        h5{
+            color: #CC3399;
+        }
+        p{
+            color: gray;
+        }
+        div{
+            i{
+                color: #626364;
+                padding: 10px 13px;
+                font-size: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                    background-color: gray;
+                }
+            }
+        }
+    }
+}

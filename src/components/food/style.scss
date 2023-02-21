@@ -1,0 +1,30 @@
+@import '../../assets/style/mixin.scss';
+.food-box{
+    width: 23%;
+    margin: 10px 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    @include screen(991px){
+        width: 31%;
+    }
+    @include screen(767px){
+        width: 48%;
+    }
+    @include screen(567px){
+        width: 280px;
+    }
+    .img-box{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    h2{
+        color: #1A6692;
+        padding: 15px 0;
+    }
+    p{
+        color: gray;
+    }
+}

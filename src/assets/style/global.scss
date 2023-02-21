@@ -1,0 +1,36 @@
+@import '../../assets/icon/style.css';
+@import './mixin.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .4s;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gray;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.text-about{
+    width: 800px;
+    padding: 40px 0;
+    text-align: center;
+    h1{
+        font-size: 35px;
+        padding: 15px 0;
+    }
+    p{
+        color: gray;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+    }
+}

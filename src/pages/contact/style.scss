@@ -1,0 +1,135 @@
+@import '../../assets/style/mixin.scss';
+.contactPage{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 0 30px;
+    .contact-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .sendMess{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            @include screen(767px){
+                width: 100%;
+            }
+            input,textarea{
+                border: none;
+                outline: 0;
+                border-bottom: 1px solid rgb(98, 98, 98);
+                padding: 10px 5px;
+                width: 60%;
+                font-size: 18px;
+                margin: 5px 0;
+                @include screen(767px){
+                    width: 100%;
+                }
+                &:focus{
+                    box-shadow: 0 0 5px 1px #39b9d3;
+                }
+            }
+            .contact-btn{
+                width: 60%;
+                text-align: end;
+                margin-top: 20px;
+                @include screen(767px){
+                    width: 100%;
+                }
+                input{
+                    width: fit-content;
+                    border: none;
+                    color: white;
+                    font-size: 18px;
+                    padding: 10px 20px;
+                    background-color: #319966;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #20362c;
+                    }
+                   
+                }
+            }
+        }
+        .messegBox{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            @include screen(767px){
+                width: 100%;
+                justify-content: center;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                @include screen(767px){
+                    margin: 10px 0;
+                }
+                .icon-phone,.icon-envelop{
+                    color: #319966;
+                    font-size: 25px;
+                    margin-right: 10px;
+                }
+                h3{
+                    color: gray;
+                    font-weight: 300;
+                }
+                p{
+                    width: 70%;
+                    font-size: 18px;
+                    color: gray;
+                    line-height: 30px;
+                    letter-spacing: 1px;
+                }
+            }
+            .soc-site{
+                i{
+                    color: gray;
+                    font-size: 25px;
+                    padding:  10px 15px;
+                    cursor: pointer;
+                    &:hover{
+                        color: white;
+                        background-color: gray;
+                    }
+                }
+            }
+        }
+    }
+    .map{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px 0;
+        
+        .map-box{
+            width: 80%;
+            height: 600px;
+            border: none;
+            @include screen(767px){
+                width: 100%;
+            }
+        }
+    }
+    .wrap-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .wraper{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+@import '../../assets/style/mixin.scss';
+header{
+    width: 100%;height: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background:  no-repeat fixed center 80%/cover;
+    @include screen(767px){
+        align-items: center;
+    }
+    .to-top-btn{
+        width: 60px;height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 20px;
+        opacity: 0;
+        z-index: -3;
+        position: fixed;
+        right: 10px;bottom: 10px;
+        font-size: 19px;
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(#30453E,#3E554B,#888691)
+    }
+    .top-btn-block{
+        opacity: 1;
+        z-index: 10;
+    }
+    .header-block{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 30px 30px 30px;
+        color: white;
+        .header-logo{
+            width: 50%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            @include screen(767px){
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+
+            .logo-up{
+                width: 40px;height: 40px;
+                border: 2px solid white;
+                position: relative;
+                .logo{
+                    width: 40px;height: 40px;
+                    background-color: white;
+                    position: absolute;
+                    top: -15px;
+                    left: -15px;
+                    @include screen(767px){        
+
+                    }
+                }
+            }
+            .logo-name{
+                margin-left: 15px;
+                h1{
+                    font-size: 2.2rem;
+                    font-weight: 400;
+                }
+            }
+        }
+        .header-links{
+            width: 50%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            @include screen(767px){
+                width: 100%;
+                justify-content: center;
+            }
+            .header-box{
+                margin: 0 10px;
+                
+                cursor: pointer;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    letter-spacing: 0.5px;
+                    font-size: 17px;
+                    padding: 15px 0;
+                    &:hover{
+                        border-bottom: 1px solid white;
+                    }
+                }
+                .active{
+                    border-bottom: 1px solid white;
+                }
+            }
+            
+        }
+    }
+}
