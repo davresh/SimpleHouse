@@ -136,22 +136,22 @@ export const myContext = React.createContext({
     wraperInf:[
         {
             id:20,
-            name:'1. Fusce eu lorem et dui #09C maximus varius?',
+            name:'1. Fusce eu lorem ?',
             info:'#666 Duis blandit purus vel nenenatis rutrum. Pellentesque pellentesque tindicunt lorem, ac egestas massa sollicitudin vel. Nam scelerisque vulputate quam mollis pretium. Morbi condimentum volutpat.'
         },
         {
             id:21,
-            name:'2. Vestibulum #999 ante ipsum primis in faucibus orci?',
+            name:'2. Vestibulum ante ipsum ?',
             info:'Mauris euismod odio at commodo rhoncus. Maecenas nec interdum purus, sed auctor est. Sed eleifend urna nec diam consectetur, a aliquet turpis facilisis. Integer est sapien, sagittis vel massa vel, interdum euismod erat. Aenean sollicitudin nisi neque, efficitur posuere urna rutrum porta.'
         },
         {
             id:22,
-            name:'3. Can I redistribute this template as a ZIP file?',
+            name:'3. Can I redistribute ?',
             info:'Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to contact TemplateMo for additional permissions about our templates. Thank you.'
         },
         {
             id:23,
-            name:'4. Ut ac erat sit amet neque efficitur faucibus et in lectus?',
+            name:'4. Ut ac erat sit ?',
             info:'Vivamus viverra pretium ultricies. Praesent feugiat, sapien vitae blandit efficitur, sem nulla venenatis nunc, vel maximus ligula sem a sem. Pellentesque ligula ex, facilisis ac libero a, blandit ullamcorper enim.'
         }
     ]
