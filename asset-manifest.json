@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/SimpleHouse/static/css/main.7c4eff31.css",
+    "main.js": "/SimpleHouse/static/js/main.2872637a.js",
+    "static/media/simple-house-01.jpg": "/SimpleHouse/static/media/simple-house-01.78a971b899af42363545.jpg",
+    "static/media/about-05.jpg": "/SimpleHouse/static/media/about-05.0ca88727177d99976b02.jpg",
+    "static/media/about-06.jpg": "/SimpleHouse/static/media/about-06.498a1ded8ec7064cf0ed.jpg",
+    "static/media/02.jpg": "/SimpleHouse/static/media/02.067179cf5a78b7619952.jpg",
+    "static/media/07.jpg": "/SimpleHouse/static/media/07.78729511bb5cfbccd49e.jpg",
+    "static/media/01.jpg": "/SimpleHouse/static/media/01.57f087b8ea30e31f4d7e.jpg",
+    "static/media/05.jpg": "/SimpleHouse/static/media/05.530147f414da55c9ea2a.jpg",
+    "static/media/04.jpg": "/SimpleHouse/static/media/04.a0a0fc5e33b8ffedbf82.jpg",
+    "static/media/06.jpg": "/SimpleHouse/static/media/06.89529fa1c7951f5f0fa9.jpg",
+    "static/media/03.jpg": "/SimpleHouse/static/media/03.938916b876c170b0bb53.jpg",
+    "static/media/08.jpg": "/SimpleHouse/static/media/08.a25ff1761b69ce26c906.jpg",
+    "static/media/img-01.jpg": "/SimpleHouse/static/media/img-01.9c1c96ec10cd1d930720.jpg",
+    "static/media/about-03.jpg": "/SimpleHouse/static/media/about-03.e3752c45d30021631dab.jpg",
+    "static/media/about-02.jpg": "/SimpleHouse/static/media/about-02.35f5603b3fe9d3c8cb53.jpg",
+    "static/media/about-01.jpg": "/SimpleHouse/static/media/about-01.41cfbf6cca97c86b12e9.jpg",
+    "static/media/about-04.jpg": "/SimpleHouse/static/media/about-04.a7b033f9d616574b6e91.jpg",
+    "static/media/icomoon.svg?k2qxoe": "/SimpleHouse/static/media/icomoon.87a2ffeb81807176fb96.svg",
+    "static/media/icomoon.eot?k2qxoe": "/SimpleHouse/static/media/icomoon.66c0183ec780875d6165.eot",
+    "static/media/icomoon.woff?k2qxoe": "/SimpleHouse/static/media/icomoon.ac27d0130421f9df95f4.woff",
+    "static/media/icomoon.ttf?k2qxoe": "/SimpleHouse/static/media/icomoon.22c5f683d393fc92354f.ttf",
+    "index.html": "/SimpleHouse/index.html",
+    "main.7c4eff31.css.map": "/SimpleHouse/static/css/main.7c4eff31.css.map",
+    "main.2872637a.js.map": "/SimpleHouse/static/js/main.2872637a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c4eff31.css",
+    "static/js/main.2872637a.js"
+  ]
+}
