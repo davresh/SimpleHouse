@@ -23,7 +23,7 @@ function Header(){
                     </div>
                 </div>
                 <div className='header-links'>
-                    <div className='header-box'> <NavLink to={'/'}>Home</NavLink></div>
+                    <div className='header-box'> <NavLink to={'/SimpleHouse'}>Home</NavLink></div>
                     <div className='header-box'><NavLink to={'/about'}>About</NavLink></div>
                     <div className='header-box'><NavLink to={'/contact'}>Contact</NavLink></div>
                 </div>

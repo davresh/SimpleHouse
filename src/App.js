@@ -10,7 +10,7 @@ function App() {
     <section className='container'>
       <Header/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/SimpleHouse' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
